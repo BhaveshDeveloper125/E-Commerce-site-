@@ -1,0 +1,131 @@
+.about
+{
+    width: 1515px;
+    height: 400px;
+    display: flex;
+    overflow-y: hidden;
+}
+.about-title
+{
+    height: 100%;
+    width: 50%;
+    padding-left: 10%;
+    font-size: 25px;
+    font-style: italic;
+}
+.story
+{
+    height: 100%;
+    width: 50%;
+    padding-left: 5%;
+}
+.story-p
+{
+    font-size: 15px;
+}
+.story h3
+{
+    font-style: italic;
+    font-weight: bolder;
+}
+.story-p2
+{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: grey;
+}
+hr
+{
+    width: 90%;
+}
+h4 , h2
+{
+    margin-left: 5%;
+}
+h2
+{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main-para
+{
+    /* text-align: justify; */
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5%;
+}
+.bg-1
+{
+    height: 700px;
+    width: 1515px;
+    background-image: url(../assets/about2.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-1-bg
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(165, 42, 42, 0.191);
+}
+.bg-1-bg p
+{
+    color: white;
+    margin-left: 10%;
+    padding-top: 10%;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg-1-bg h2
+{
+    margin-left: 10%;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: normal;
+    color: white;
+    font-style: italic;
+}
+#bg-1-bg-mainpara
+{
+    position: relative;
+    top: -25%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-transform: none;
+}
+.about-outro p , h2
+{
+    margin-left: 10%;
+}
+.about-outro p 
+{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.about-outro h2
+{
+    font-weight: bolder;
+    font-style: italic;
+}
+.main-para
+{
+    margin-left: -10px;
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10%;
+}
+

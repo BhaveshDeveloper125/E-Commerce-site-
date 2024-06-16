@@ -1,0 +1,635 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
+
+.nav-td td a:hover
+{
+
+   border-bottom: 1px solid white;
+}
+
+
+.container1
+{
+    height: 700px;
+    width: 1515px;
+    background-image: url(./assets/mainModel.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.nav-td td:nth-child(-n+4)
+{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: aliceblue;
+    padding-right: 50px;
+}
+
+table , .nav-td
+{
+    height: fit-content;
+    width: 100%;
+    backdrop-filter: blur(10px);
+}
+
+
+#logo-font
+{
+    font-size: 50px;
+    color: white;
+    padding-left: 70px;
+    padding-right: 500px;
+}
+
+#searchbox
+{
+    height: 35px;
+    width: 40px;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+
+#searchbox:hover
+{
+    height: 35px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#searchlogo
+{
+    height: 37px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: 15px;
+    right: 40px;
+}
+
+#cartlogo
+{
+    height: 35px;
+    width: 40px;
+    position: relative;
+    top: 10px;
+    border-radius: 50%;
+}
+
+
+#purse-img
+{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    top: 100px;
+    left: 70%;
+}
+
+#sudhar
+{
+    width: fit-content;
+}
+
+.explore
+{
+    position: relative;
+    top: 80px;
+    padding-left: 70%;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.collections
+{
+    padding-left: 75%;
+    position: relative;
+    top: 20px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.normal-text
+{
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.comfort-style
+{
+    text-align: center;
+    position: relative;
+    top: 5%;
+    font-size: 50px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.view-collection
+{
+    height: 25px;
+    width: 200px;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 45%;
+    position: relative;
+    top: 25px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.view-collection:hover
+{
+
+    background-color: whitesmoke;
+    color: black;
+}
+
+
+.effortlessly
+{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.most-popular
+{
+    text-align: center;
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.popular-choice
+{
+    overflow-y: auto;
+    white-space: nowrap;
+}
+
+
+.popular-choice
+{
+    height: 620px;
+    width: 100%;
+    display: flex;
+    overflow-y: auto;
+    white-space: nowrap;
+}
+.popular-choice::-webkit-scrollbar
+{
+    display: none;
+}
+
+.card 
+{
+    width: 300px;
+    margin-top: 25px;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+
+.card-img
+{
+    height: 400px;
+    width: 300px;
+    border-radius: 10%;
+}
+
+
+.type , .shop , .price
+{
+    text-align: center;   
+}
+
+
+.sizes
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.size
+{
+    height: 40px;
+    width: 50px;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+    color: grey;
+    border: 1px solid grey;
+}
+
+.size:hover
+{
+    color: black;
+    border: 1px solid black;
+}
+
+
+.bag-collection
+{
+    height: 700px;
+    width: 1515px;
+    background-image: url(./assets/model2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 999;
+}
+
+.bg-changer
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.477);
+}
+
+
+.view-bags
+{
+    height: 50px;
+    width: 200px;
+    margin-left: 75%;
+    position: relative;
+    top: 25px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    font-size: 15px;
+}
+.view-bags:hover
+{
+    color: black;
+    background-color: white;
+}
+
+
+.blazzer-desiger
+{
+    height: 700px;
+    width: 1515px;
+    overflow: hidden;
+    display: flex;
+}
+
+.para1
+{
+    color: grey;
+    display: inline-block;
+    position: relative;
+    top: 250px;
+    left: 20%;
+}
+
+.para2
+{
+    color: grey;
+    display: inline-block;
+    position: relative;
+    top: 180px;
+    left: 20%;
+    font-family: cursive;
+}
+
+
+.blazzer-desiger h1
+{
+    font-size: 50px;
+    width: fit-content;
+    position: relative;
+    top: 210px;
+    left: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.inner
+{
+    width: 50%;
+    height: 100%;
+}
+
+.blazzer-desiger-img
+{
+    height: 100%;
+    width: fit-content;
+    padding-left: 20%;
+}
+
+.blazzer-desiger-btn
+{
+    height: 50px;
+    width: 150px;
+    position: relative;
+    top: 250px;
+    left: -42%;
+    transition-duration: 0.5s;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+}
+
+.blazzer-desiger-btn:hover
+{
+    background-color: white;
+    color: black;
+    border: 0.5px solid black;
+}
+
+.discover
+{
+    height: 1000px;
+    width: 1515px;
+    background-image: url(./assets/discover.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.discover-cover
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.373);
+}
+
+.discover-cove-img
+{
+    height: 550px;
+    width: 350px;
+    position: relative;
+    top: -7%;
+    left: 10%;
+}
+
+.discover-cove-title
+{
+    position: relative;
+    top: -11%;
+    left: 10%;
+    display: flex;
+    width: fit-content;
+    color: white;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.discover-cove-para
+{
+    width: fit-content;
+    color: white;
+    position: relative;
+    top: -10%;
+    left: 10%;
+    font-size: 25px;
+}
+
+.shop-now
+{
+    height: 50px;
+    width: 150px;
+    position: relative;
+    top: -7%;
+    left: 10%;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.shop-now:hover
+{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 7px;
+}
+
+.new-products
+{
+    height: 600px;
+    width: 1515px;
+    overflow-y: auto;
+    display: flex;
+    white-space: nowrap;
+}
+
+.new-products::-webkit-scrollbar
+{
+    display: none;
+}
+
+
+.n-p
+{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+
+.quote
+{
+    height: 1000px;
+    width: 1515px;
+    background-image: url(./assets/quote.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.quote-bg
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.286);
+    color: white;
+}
+
+.quote-para
+{
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: 200px;
+}
+
+.quote-stars
+{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    top: 150px;
+    left: 40%;
+    width: fit-content;
+}
+
+.fan
+{
+    position: relative;
+    top: 200px;
+    width: fit-content;
+    left: 35%;
+    font-size: 20px;
+}
+
+
+.service-box
+{
+    height: 300px;
+    width: 1515px;
+    display: flex;
+    backdrop-filter: blur(10px);
+}
+
+
+.service-item
+{
+    height: 100%;
+    width: 25%;
+}
+
+.service-item-img
+{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 25%;
+}
+
+.service-item-title
+{
+    position: relative;
+    left: 20%;
+    top: -10%;
+    font-style: italic;
+    width: fit-content;
+}
+
+.service-item-desc
+{
+    color: grey;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top: -40px;
+}
+
+
+.explore-collection
+{
+    height: 700px;
+    width: 1515px;
+    background-image: url(./assets/explore.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.explore-collection-bg
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.447);
+}
+
+.explore-collection-p
+{
+    color: white;
+    width: fit-content;
+    position: relative;
+    top: 70px;
+    left: 50%;
+}
+
+.explore-collection-h1
+{
+    color: white;
+    position: relative;
+    width: fit-content;
+    top: 5%;
+    left: 50%;
+    font-size: 50px;
+    font-style: italic;
+    width: fit-content;
+}
+
+.explore-collection-p2
+{
+    color: white;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    font-size: 20px;
+    width: fit-content;
+}
+
+.explore-collection-btn
+{
+    height: 50px;
+    width: 150px;
+    position: relative;
+    top: 100px;
+    left: 50%;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(255, 217, 0, 0.243);
+    cursor: pointer;
+    transition-duration: 0.5s;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.explore-collection-btn:hover
+{
+    background-color: rgba(255, 217, 0, 0.245);
+    color: black;
+}
+
+
+
+footer table
+{
+    text-align: center;
+}
+
+footer table tr td b
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+footer table tr td
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+}
+footer table tr td:hover
+{
+    color: black;
+}
